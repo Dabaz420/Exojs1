@@ -22,11 +22,11 @@ function mastermind(){
             }
         }
         if(correction[0] == 'oui' && correction[1] == 'oui' && correction[2] == 'oui'){
-            alert('OK');
+            alert('GG you won');
             return;
         }
         else if(y == 2){
-            alert('KO');
+            alert('you suck');
             return;
         }
         reponse = prompt(reponse + '\r\n' + correction[0] + ',' + correction[1] + ',' + correction[2]);
